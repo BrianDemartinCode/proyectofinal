@@ -1,0 +1,25 @@
+.container-card{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.total-price{
+    color: white;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn1{
+    margin-right: 5px;
+}

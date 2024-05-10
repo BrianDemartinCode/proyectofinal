@@ -1,0 +1,54 @@
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  border-bottom: 2px solid black;
+  background: #212529;
+}
+.brand-navbar{
+  height: 80%;
+}
+.icon-navbar{
+  height: 100%;
+  margin: 0 20px;
+}
+.categories-navbar{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.categorie-navbar{
+  font-weight: 500;
+  text-align: center;
+  width: auto;
+  height: 100%;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.categorie-navbar:hover{
+  background-color: red;
+  color: white;
+}
+.categorie-navbar:hover{
+  cursor: pointer;
+}
+
+.cartwidget{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  font-weight: bold;
+}
+.cartwidget:hover{
+  cursor: pointer;
+}
+
+.carrito{
+  color: white;
+}
